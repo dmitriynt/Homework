@@ -8,13 +8,13 @@
 #include <stdio.h>
 
 int main(){
-    int number_one, number_two;
+    int first_number, second_number;
 
-    scanf ("%d", &number_one);
-    scanf ("%d", &number_two);
+    scanf ("%d", &first_number);
+    scanf ("%d", &second_number);
 
-    if(number_one == number_two) printf("Equal");
-    else if(number_one > number_two) printf("Above");
+    if(first_number == second_number) printf("Equal");
+    else if(first_number > second_number) printf("Above");
     else printf("Less");
     
     return 0;
