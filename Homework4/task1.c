@@ -1,10 +1,12 @@
+// Ввести два числа и вывести их в порядке возрастания.
+// Данные на входе: Два целых числа
+// Данные на выходе: Два целых числа
+
 #include <stdio.h>
-#include <locale.h>
-#include <math.h>
 
 int main(){
-    int a, b, c;
-    scanf ("%d%d%d", &a, &b, &c);
-    printf("%d+%d+%d=%d", a, b, c, a+b+c);
+    int a, b;
+    scanf ("%d%d", &a, &b);
+    a > b ? printf("%d %d", b, a) : printf("%d %d", a, b);
     return 0;
 }
